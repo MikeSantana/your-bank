@@ -1,0 +1,29 @@
+#asingIn_conteiner{
+    background-image: url("background.png");
+    display: flex;
+    align-items: center;
+    height: 100vh;
+   
+}
+#asingIn_wrapper{
+   text-align: center;
+   margin: 0 auto;
+    width: 80%;
+
+}
+
+.font{
+    color:  #fff;
+}
+.asignIn_title{   
+    font-weight: 700;
+    font-size: 3em;
+}
+.asignIn_subtitle{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.asignIn_paragraph{
+    font-size:  1.5em;
+}

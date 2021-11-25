@@ -1,0 +1,9 @@
+.UIButton{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #BBBBBB;
+    border-radius: 15px;
+    padding: 10px 40px 10px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
