@@ -1,10 +1,12 @@
-import RegisterPage from './pages/register/index';
+import Home from './pages/home/index';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <RegisterPage></RegisterPage>
+      <Home></Home>
     </div>
   );
 }

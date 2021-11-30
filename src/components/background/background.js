@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-import './asignin.css'
+import './background.css'
 
-function AsingIn() {
+function Background() {
     return (
         <div id="asingIn_conteiner">
             <div id="asingIn_wrapper">
@@ -18,4 +18,4 @@ function AsingIn() {
     );
 }
 
-export default AsingIn;
+export default Background;

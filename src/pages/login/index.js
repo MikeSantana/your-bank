@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AsignIn from '../../components/asignIn/asignIn';
+import Background from '../../components/background/background';
 import Form from '../../components/form/form';
 
 import './styled.css';
@@ -10,7 +10,7 @@ function LoginPage() {
         <div id="login_container" >
             <div id="login_wrapper">
             <div id="one">
-                <AsignIn></AsignIn>
+                <Background></Background>
             </div>
             <div id="two">
                 <Form>

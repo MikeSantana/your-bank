@@ -1,0 +1,56 @@
+.topbar_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar_container{
+    height: 70px;
+}
+
+.topbar_navigation{
+display: flex;
+margin-left: 30px;
+}
+
+.topbar_navigation ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar_navigation li {
+    margin-left: 30px;
+}
+.first_list{
+    background-color: rgb(128, 128, 128);
+    padding: 6px 20px 6px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.topbar_navigation li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+   
+}
+
+.asignIn_topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+.Login_topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login_topbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 40px;
+}

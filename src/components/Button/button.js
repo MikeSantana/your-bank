@@ -3,7 +3,7 @@ import './styled.css';
 
 const UIButton = (props) => {
     return (
-        <button className="UIButton" type="submit">{props.children}</button>
+        <button className="UIButton" type="submit" style={props.styled}>{props.children}</button>
     );
 }
 

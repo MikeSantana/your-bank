@@ -1,0 +1,51 @@
+.Home{
+    background-color: #000;
+}
+.asignIn_topbar{
+    display: flex;
+}
+.Header_Container{
+    display: flex;
+}
+.Header_wrapper{
+    display: flex;
+    margin: 0 auto;
+    width: 1600px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Header_text{
+
+    max-width: 600px;
+    
+}
+
+.Header_text span{
+    color: #fff;
+    width: 100px;
+    
+}
+
+.Header_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.Header_paragraph{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1600px){
+    .Header_wrapper{
+
+        width: 95%;
+
+    }
+}
+
+/*============================= */
+
+.Header_Container2{
+    background-image: url("../../components/background/background.png");
+}
