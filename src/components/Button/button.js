@@ -3,7 +3,7 @@ import './styled.css';
 
 const UIButton = (props) => {
     return (
-        <button className="UIButton" type="submit" style={props.styled}>{props.children}</button>
+        <a className="UIButton" href={props.router}  style={props.styled}>{props.children}</a>
     );
 }
 

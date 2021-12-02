@@ -1,56 +1,86 @@
-.topbar_nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.topbar_container img{
+    
 }
+
+
 .topbar_container{
-    height: 70px;
-}
-
-.topbar_navigation{
-display: flex;
-margin-left: 30px;
-}
-
-.topbar_navigation ul {
+    width: 100vw;
+    height: 80px;
+    background-color: #000;
     display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
 }
 
-.topbar_navigation li {
-    margin-left: 30px;
+.topbar_container img {
+    margin-left: 3%;
 }
-.first_list{
-    background-color: rgb(128, 128, 128);
-    padding: 6px 20px 6px 20px;
-    border-radius: 15px;
-    text-align: center;
+
+/*===== hamburguer menu ======== */
+
+.mobileNavigation{
+    display: none;
+
 }
-.topbar_navigation li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.2rem;
+
+@media (max-width: 1250px){
+    .topbar_container .navigation{
+        display: none;
+    }
+
+    .topbar_container .mobileNavigation{
+        display: flex;
+        align-items: center;
+    }
+    .topbar_container .mobileNavigation .hamburgerMenu{
+        position: absolute;
+        right: 3%;
+        cursor: pointer;
+    }
+
+    /*===== Responsive nevLinks ======== */
+    .topbar_nav{
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #000;
+        
+    }
+    .asignIn_topbar {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .asignIn_topbar .Login_topbar{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .asignIn_topbar .btn_topbar{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+
+    .Login_topbar a {
+        margin-right: 10px;
+    }
+
+
+    .topbar_nav ul {
+        flex-direction: column-reverse;
+       
+        padding-left: 0px;
+        
+    }
+    .topbar_nav ul li {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    
    
-}
-
-.asignIn_topbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-}
-.Login_topbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Login_topbar a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-left: 10px;
-    margin-right: 40px;
 }
