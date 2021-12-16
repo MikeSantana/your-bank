@@ -1,0 +1,25 @@
+#asingIn_wrapper{
+    text-align: center;
+    margin: 0 auto;
+     width: 80%;
+} 
+
+.asignIn_title{   
+    font-weight: 700;
+    font-size: 3em;
+}
+
+
+.asignIn_subtitle{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+
+.font{
+    color:  #fff;
+}
+
+.asignIn_paragraph{
+    font-size:  1.5em;
+}

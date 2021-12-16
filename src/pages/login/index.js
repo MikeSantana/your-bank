@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Background from '../../components/background/background';
+import Background from '../../components/background/background.jsx';
+import Text from '../../components/text/text.js';
 import Form from '../../components/form/form';
 
 import './styled.css';
@@ -10,7 +11,9 @@ function LoginPage() {
         <div id="login_container" >
             <div id="login_wrapper">
                 <div id="one">
-                    <Background></Background>
+                    <Background>
+                        <Text />
+                    </Background>
                 </div>
                 <div id="two">
                     <Form>
