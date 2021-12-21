@@ -1,0 +1,24 @@
+.carousel_container{
+    background-color: #fff;
+    max-width: 1000px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.carousel_items{
+    display: flex;
+    align-items: center;
+}
+
+
+/*========= Setas =========*/
+
+.FaChevron{
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 50px;
+    min-height: 50px;
+}

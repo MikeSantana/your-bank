@@ -2,8 +2,8 @@ import React from 'react';
 
 
 import Topbar from '../../components/topbar/topbar';
-import Header from './components/header'
-import Section from './components/section'
+import Header from './components/header';
+import Section from './components/section';
 
 
 
@@ -13,6 +13,7 @@ function Home() {
             <Topbar></Topbar>
             <Header></Header>
             <Section></Section>
+            
 
         </>
     );
