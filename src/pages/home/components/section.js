@@ -2,7 +2,7 @@ import React from 'react';
 
 import Background from '../../../components/background/background'; //
 import Carousel from './carousel';
-
+import Card from './card';
 
 import '../../../components/text/text.css';
 import './section.css';
@@ -25,6 +25,8 @@ const Section = () => {
                     </div>
                     <Carousel>
                     </Carousel>
+                    <Card>
+                    </Card>
                 </div>
             </Background>
         </div>

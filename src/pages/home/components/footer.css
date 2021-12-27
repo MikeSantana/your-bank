@@ -1,0 +1,46 @@
+footer{
+    display: flex;
+    height: 440px;
+    width: 100%;
+    background-color: #fff;
+   justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.Icones_footer{
+    
+}
+.social_Icones{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 0px;
+}
+
+.social_Icones a{
+    margin: 0px 15px 0px 15px;
+}
+
+.links_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.links_footer span {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.links_footer a {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 120%;
+    text-decoration: none;
+    color: #000;
+   
+}
+
+
+
+/* Responsive */ 
+
