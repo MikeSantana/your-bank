@@ -15,7 +15,6 @@ const Section = () => {
         <div>
             
             <Background >
-            
                 <div className="section_container">
                     <div id="asingIn_wrapper">
                         <span className="asignIn_title font">Nós somos a Youbank</span>
