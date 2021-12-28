@@ -16,7 +16,7 @@ const Section = () => {
             
             <Background >
                 <div className="section_container">
-                    <div id="asingIn_wrapper">
+                    <div  id="asingIn_wrapper">
                         <span className="asignIn_title font">Nós somos a Youbank</span>
                         <br></br>
                         <span className="asignIn_subtitle  font">Um banco 100% digital, sem taxas e com rendimento maior do que a poupança!</span>
@@ -25,8 +25,11 @@ const Section = () => {
                     </div>
                     <Carousel>
                     </Carousel>
+                    <div id="carousel_margin">
                     <Card>
                     </Card>
+                    </div>
+                    
                 </div>
             </Background>
         </div>

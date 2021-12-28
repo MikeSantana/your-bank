@@ -13,11 +13,11 @@ function Card() {
                 <span className="paragraph_text">É totalmente gratis e sem anuidade, livre de taxas e burocracias</span>
             </div>
             <div className="card_card">
-                <span>YouBank</span>
-                <span>****     ****     ****     ****</span>
-                <div>
-                    <span>Seu nome aqui</span>
-                    <span>05/2021</span>
+                <span className="title_text card_title" >YouBank</span>
+                <span className="title_text card_password">****     **** ****  ****</span>
+                <div className="card_cliente">
+                    <span className="card_name">Seu nome aqui</span>
+                    <span className="card_name">05/2021</span>
                     <img src={IconVisa}></img>
                 </div>
             </div>

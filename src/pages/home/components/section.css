@@ -3,5 +3,13 @@
     flex-direction: column;
     margin: 0 auto;
     height: 1750px;
-    
+}
+#asingIn_wrapper{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#carousel_margin{
+    margin-top: 200px;
+    margin-bottom: 100px;
 }

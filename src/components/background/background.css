@@ -1,9 +1,7 @@
 .background_img{
-    background-image: url("background-transparent.png");
+    background-image: url("background-transparent.jpg");
     height:100%;
     width: 100;
     display: flex;
     align-items: center;
-
-
 }
